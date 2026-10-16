@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Player Portfolio</title>
+    <meta name="description"
+        content="Himesh Soni's developer portfolio featuring projects, technical skills, and learning progress.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>PLAYER PROFILE</h2>
+
+        <nav aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="system-status">
+            <span class="status-dot"></span>
+            SYSTEM ONLINE
+        </div>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <div class="profile">
+
+                <div class="avatar" role="button" tabindex="0" aria-label="Show or hide welcome message">
+                    <span>👾</span>
+                </div>
+
+                <p id="welcomeMessage" class="welcome-message" hidden></p>
+
+                <p class="level" id="playerLevel"></p>
+
+                <h1 id="playerName"></h1>
+
+                <p class="description" id="playerIntroduction"></p>
+
+                <a class="button" href="#projects">
+                    View My Projects
+                </a>
+
+                <div class="player-stats" id="playerStats"></div>
+
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2 id="aboutTitle"></h2>
+            <div class="about-card" id="aboutContent"></div>
+        </section>
+
+        <section class="skills" id="skills">
+            <p class="section-label">PLAYER ABILITIES</p>
+            <h2>My Skills</h2>
+
+            <p class="section-description">
+                Skills I'm learning and using in my projects.
+            </p>
+
+            <div class="skill-list" id="skillList"></div>
+        </section>
+
+        <section class="projects" id="projects">
+            <p class="section-label">YOUR INVENTORY</p>
+            <h2>My Projects</h2>
+
+            <p class="section-description">
+                Projects I've built while leveling up my skills.
+            </p>
+
+            <div class="project-grid" id="projectGrid"></div>
+        </section>
+
+        <section class="contact" id="contact">
+            <p class="section-label">ESTABLISH CONNECTION</p>
+            <h2>Let's Connect</h2>
+
+            <p class="section-description">
+                Interested in working together or discussing an opportunity?
+                Feel free to reach out.
+            </p>
+
+            <div class="contact-actions" id="contactActions"></div>
+        </section>
+
+        <section class="quests" id="quests">
+            <p class="section-label">ACTIVE MISSIONS</p>
+            <h2>My Current Quests</h2>
+
+            <p class="section-description">
+                Every skill unlocked starts with a mission.
+            </p>
+
+            <div class="quest-list" id="questList"></div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p id="footerCopyright"></p>
+
+        <div class="social-links">
+            <a href="https://github.com/Himesh05" target="_blank" rel="noopener noreferrer">
+                GitHub ↗
+            </a>
+
+            <a href="https://www.linkedin.com/in/himesh-soni-6803ab288/" target="_blank" rel="noopener noreferrer">
+                LinkedIn ↗
+            </a>
+        </div>
+
+        <p class="footer-note" id="footerNote"></p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
