@@ -6,7 +6,7 @@ const portfolioData = {
         name: "Himesh Soni",
         level: "PLAYER LEVEL 01",
         introduction:
-            "Developer in progress. Learning, building, and leveling up one day.",
+            "Developer in progress. Learning, building, and leveling up one day at a time.",
         welcomeMessage: "Welcome to my world, Player!"
     },
 
